@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>豚好货</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/base.css" type="text/css">
+    <link rel="stylesheet" href="style/dolphin.css">
+    <link rel="stylesheet" href="style/swiper-4.1.6.min.css">
+    <script src="js/adaptive.js"></script>
+</head>
+<body>
+    <div class="dolphin">
+        <div class="top">
+            <a href="">豚好货</a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="first">
+                    <img src="images/t1.png" alt="">
+                    <a href="">母婴用品</a>
+                </li>
+                <li>
+                    <img src="images/t2.png" alt="">
+                    <a href="">营养保健</a>
+                </li>
+                <li>
+                    <img src="images/t3.png" alt="">
+                    <a href="">美容药妆</a>
+                </li>
+                <li class="last">
+                    <img src="images/t4.png" alt="">
+                    <a href="">个人护理</a>
+                </li>
+                <div style="clear:both;"></div>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="swiper-container swiper-banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"> <a href=""> <img src="images/top2.jpg" alt=""> </a> </div>
+                    <div class="swiper-slide"> <a href=""> <img src="images/top4.jpg" alt=""> </a> </div>
+                    <div class="swiper-slide"> <a href=""> <img src="images/top5.jpg" alt=""> </a> </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="cp">
+            <img src="images/t5.jpg" alt="">
+            <h3>Elevit 爱乐维 孕妇复合...</h3>
+            <p>满足孕期及哺乳期不同的营养需求。</p>
+            <span>￥389.00</span>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="cp">
+            <img src="images/t6.jpg" alt="">
+            <h3>Palmer's 帕玛氏 孕妇产...</h3>
+            <p>有效抚平疤痕，防止妊娠纹，修复...</p>
+            <span>￥68.06</span>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="cp">
+            <img src="images/t5.jpg" alt="">
+            <h3>Elevit 爱乐维 孕妇复合...</h3>
+            <p>满足孕期及哺乳期不同的营养需求。</p>
+            <span>￥389.00</span>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="cp">
+            <img src="images/t6.jpg" alt="">
+            <h3>Palmer's 帕玛氏 孕妇产...</h3>
+            <p>有效抚平疤痕，防止妊娠纹，修复...</p>
+            <span>￥68.06</span>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+
+    <!--底部开始-->
+    <div class="bottom">
+        <ul>
+            <li>
+                <a href="index.html"></a>
+                <!--<a href=""><img src="images/全球购.jpg" alt=""></a>-->
+            </li>
+            <li>
+                <a href="catagory.html"></a>
+                <!-- <a href=""><img src="images/分类.jpg" alt=""></a>-->
+            </li>
+            <li>
+                <a href="dolphin.html"></a>
+                <!--<a href=""><img src="images/豚好货.jpg" alt=""></a>-->
+            </li>
+            <li>
+                <a href="cart.html"></a>
+                <!-- <a href=""><img src="images/购物车.jpg" alt=""></a>-->
+            </li>
+            <li>
+                <a href="my.html"></a>
+                <!--<a href=""> <img src="images/我的.jpg" alt=""></a>-->
+            </li>
+        </ul>
+    </div>
+    <!--底部结束-->
+</body>
+<script src="js/swiper-4.1.6.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-banner', {
+        loop : true,
+        autoplay: {
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
+            delay: 2000,//1秒切换一次
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable : true,
+        },
+    });
+</script>
+
+</html>

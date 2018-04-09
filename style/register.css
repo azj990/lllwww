@@ -1,0 +1,198 @@
+.login{
+    max-width:7.5rem;
+    min-width:3.2rem;
+    height:13rem;
+    background:#FFf;
+    margin:0 auto;
+}
+
+.login .top{
+    height:0.9rem;
+    width:100%;
+    background: #ededed;
+    text-align: center;
+    border-bottom:1px solid #c8c7cc ;
+}
+.login .top span{
+    font-size:0.36rem;
+    font-weight: 500;
+    line-height: 0.85rem;
+}
+.login .content{
+    width:100%;
+    height:auto;
+    background:#FFf;
+    padding-top:0.5rem;
+}
+.login .content .form{
+    width:6.8rem;
+    height:auto;
+    /*background:#00FF00;*/
+    margin:0 auto;
+}
+/*手机*/
+.login .content .form .shouji{
+    width:100%;
+    height:0.8rem;
+    /*background:#fff;*/
+    border-bottom:#d6d6d6 1px solid;
+}
+.login .content .form .shouji span img{
+    display:block;
+    float:left;
+    width:0.5rem;
+    height:0.5rem;
+    margin: 0.2rem 0.35rem 0 0.2rem;
+}
+.login .content .form .shouji input[type="text"]{
+    border:none;
+    /*background:#99FF00;*/
+    width:5rem;
+    height:0.6rem;
+    margin-top:0.1rem;
+    font-size:0.28rem;
+}
+.login .content .form .shouji input::-webkit-input-placeholder {
+    color:#d6d6d6;
+}
+
+/*短信*/
+.login .content .form .duanxin{
+    width:100%;
+    height:0.8rem;
+    /*background:#fff;*/
+    border-bottom:#d6d6d6 1px solid;
+    position:relative;
+}
+.login .content .form .duanxin span img{
+    display:block;
+    float:left;
+    width:0.5rem;
+    height:0.5rem;
+    margin: 0.2rem 0.35rem 0 0.2rem;
+}
+.login .content .form .duanxin input[type="text"]{
+    border:none;
+    /*background:#99FF00;*/
+    width:5rem;
+    height:0.6rem;
+    margin-top:0.1rem;
+    font-size:0.28rem;
+}
+.login .content .form .duanxin input::-webkit-input-placeholder {
+    color:#d6d6d6;
+}
+.login .content .form .duanxin em{
+    display:block;
+    float:left;
+    width:1.8rem;
+    height:0.5rem;
+    border:#82d4f6 2px solid;
+    text-align:center;
+    padding-top:0.03rem;
+    position:absolute;
+    border-radius:0.1rem;
+    color:#82d4f6;
+    top:0.15rem;
+    right:0;
+}
+/*密码*/
+.login .content .form .mima{
+    width:100%;
+    height:0.8rem;
+    /*background:#fff;*/
+    border-bottom:#d6d6d6 1px solid;
+    position:relative;
+}
+.login .content .form .mima span img{
+    display:block;
+    float:left;
+    width:0.5rem;
+    height:0.5rem;
+     margin: 0.2rem 0.35rem 0 0.2rem;
+}
+.login .content .form .mima input[type="text"]{
+    border:none;
+    /*background:#99FF00;*/
+    width:5rem;
+    height:0.6rem;
+    margin-top:0.1rem;
+    font-size:0.28rem;
+}
+.login .content .form .mima input::-webkit-input-placeholder {
+    color:#d6d6d6;
+}
+.login .content .form .mima i img{
+    display:block;
+    float:left;
+    width:0.5rem;
+    height:0.5rem;
+    position:absolute;
+    top:0.2rem;
+    right:0.2rem;
+}
+/*条例*/
+.login .content .form .tiaoli{
+    width:100%;
+    height:1rem;
+   /* text-align:center;*/
+    line-height:0.8rem;
+    font-size: 0.28rem;
+    color:#bfbfbf;
+}
+.login .content .form .tiaoli p a{
+    color:#0099e6;
+}
+/*登录*/
+
+.login .content .form .denglu{
+    width:100%;
+    height:1rem;
+    background:#0099e6;
+    text-align:center;
+    line-height:1rem;
+    color:#FFFFFF;
+    border-radius:0.5rem;
+    font-size: 0.34rem;
+    margin-top: 0.98rem;
+}
+
+.login .content .form .foot_title{
+   /* height:100%;*/
+    height:0.8rem;
+    /* background:#00FF99; */
+    position:relative;
+    margin-top: 1.2rem;
+}
+.login .content .form .foot_title i{
+    display:block;
+    width:80%;
+    height:0.4rem;
+    border-bottom:#ebebeb 0.01rem solid;
+    margin: 0 auto;
+}
+.login .content .form .foot_title span{
+    display:block;
+    width:2.82rem;
+    height:auto;
+    background:#FFFFFF;
+    text-align:center;
+    position:absolute;
+    top:0.22rem;
+    left:50%;
+    transform:translateX(-50%);
+    color:#a1a1a1;
+}
+.login .content .form .foot{
+    width:100%;
+    height:0.8rem;
+    /* background:#CCCCCC;*/
+    margin-left: 1.3rem;
+}
+.login .content .form .foot img{
+    display: inline-block;
+    width:0.8rem;
+    height:0.8rem;
+    float:left;
+    margin:0.2rem 0.3rem 0 0.3rem;
+}

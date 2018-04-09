@@ -1,0 +1,152 @@
+.my{
+    max-width:7.5rem;
+    min-width:3.2rem;
+    height:15rem;
+    background:white;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+.my .top{
+    width: 100%;
+    height:4.27rem;
+    background: #17c3e7;
+   /* background: red;*/
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+.my .top img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 auto;
+    /*padding-top: 0.5rem;*/
+
+}
+.my .top .m_header_center{
+    height:0.6rem;
+    width: 0.6em;
+    font-size: 0.6rem;
+    position: absolute;
+    top:0.2rem;
+    left:0.2rem;
+    z-index: 1;
+    color:#fff;
+}
+.my .top .m_right{
+    height:0.7rem;
+    width: 0.7rem;
+    font-size: 0.7rem;
+    position: absolute;
+    top:0.15rem;
+    right:0.2rem;
+    z-index: 1;
+    color:#fff;
+}
+.my .top span{
+    color: white;
+    font-size: 0.34rem;
+    margin-top: 0.1rem;
+
+}
+.my .content .first{
+    width:7.1rem;
+    height:0.92rem;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0 auto;
+    line-height: 0.92rem;
+}
+.my .content .first .one{
+    width:0.36rem;
+    height:0.36rem;
+    float:left;
+    margin-top: 0.3rem;
+}
+.my .content .first .two{
+    width:0.36rem;
+    height:0.36rem;
+    float:right;
+    margin-top: 0.3rem;
+}
+.my .content .first p{
+    float:left;
+    font-size: 0.3rem;
+    color: #5e5e5e;
+    margin-left: 0.46rem;
+}
+.my .content .first span{
+    float:right;
+    font-size: 0.26rem;
+    color: #939393;
+    margin-right: 0.2rem;
+}
+.my .content .blank{
+    width:100%;
+    height: 0.12rem;
+    background: #ebebeb;
+}
+.my .content .last{
+    border:none;
+}
+
+
+.bottom{
+    width:100%;max-width:7.5rem;
+    min-width:3.2rem; height:0.98rem;
+    background: rgba(255,255,255,1);
+    border-top:1px solid rgba(102,102,102,0.2);
+    margin:0 auto; position:fixed;/*固定定位*/
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:100;
+}
+.bottom ul{
+    width:100%;
+    height:100%; /*display:flex;*//*伸缩盒*/
+}
+.bottom ul li{
+    /*flex:1;*/ width:20%;
+    float:left;
+    padding-top:0.12rem;
+}
+.bottom ul li:nth-child(1) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/全球购2.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+    margin-bottom: 0.08rem;
+}
+.bottom ul li:nth-child(2) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/分类.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+.bottom ul li:nth-child(3) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/豚好货.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+.bottom ul li:nth-child(4) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/购物车.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+.bottom ul li:nth-child(5) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/我的2.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}

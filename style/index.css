@@ -1,0 +1,421 @@
+/*头部开始*/
+.m_header{
+    /*height:349px;*/
+    /*background: url(../images/top1.jpg) no-repeat;*/
+    /*background-size:contain;*/
+    max-width: 7.5rem;
+    min-width:3.2rem;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 20;
+    background:rgba(0,0,0,0);
+}
+.m_header .m_search{
+    margin-left: 0.40rem;
+}
+.m_header .m_search .m_header_center{
+    height:0.32rem;
+    width: 0.32rem;
+    font-size: 0.32rem;
+    position: absolute;
+    top:0.32rem;
+    left:2.0rem;
+    z-index: 1;
+}
+.m_header .m_search input{
+    height:0.70rem;
+    width: 6.0rem;
+    background:rgba(226,242,243,0.6);
+    padding:0 0.3rem;
+    position: relative;
+    text-align: center;
+    font-size: 0.3rem;
+    border-radius: 0.3rem;
+    margin-top: 0.15rem;
+}
+
+.m_header .m_right{
+    height:0.7rem;
+    width: 0.7rem;
+    font-size: 0.7rem;
+    position: absolute;
+    top:0.15rem;
+    right:0.35rem;
+    z-index: 1;
+    color:#fff;
+}
+
+/*banner*/
+.main{
+    width:100%;
+    max-width: 7.5rem;
+    min-width: 3.2rem;
+    margin:0 auto;
+    background: #fff;
+    z-index: 10;
+    height: 29rem;
+}
+.banner{
+    width:100%;
+    height:3.49rem;
+}
+.main .banner .swiper-container{
+    width: 100%;
+}
+.main .banner .swiper-container .swiper-slide{
+    width:100%;
+
+}
+.main .banner .swiper-container .swiper-slide img{
+    width: 100%;
+}
+
+/*秒杀*/
+
+.floor_kill{
+    width: 100%;
+}
+
+
+.floor_kill .kill_bt{
+    width:100%;
+    height:0.9rem;
+    line-height:0.9rem;
+    padding:0 0.2rem;
+    margin-top: 0.8rem;
+}
+
+.floor_kill .kill_bt h2{
+    font-weight:700;
+    font-size:0.3rem;
+    margin-right:0.2rem;
+    float:left;
+}
+
+.floor_kill .kill_bt>div{
+    float:left;
+    margin-left: 2.6rem;
+}
+
+.floor_kill .kill_bt>div>p{
+    font-size:0.22rem;
+    float:left;
+}
+
+.floor_kill .kill_bt>div>span{
+    font-size:0.22rem;
+    color:white;
+    background:#788186;
+    padding:0.04rem;
+    border-radius:0.05rem;
+    margin:0 0.04rem;
+}
+
+.floor_kill .kill_bt>a{
+    font-size:0.22rem;
+    float: right;
+}
+
+/*kill_con*/
+.floor_kill .kill_con{
+    width:100%;
+    height:3.66rem;
+    padding:0.1rem 0.1rem 0;
+}
+
+.floor_kill .kill_con .swiper-container{
+    width:100%;
+    height:100%;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide{
+    width:2.02rem;
+    height:100%;
+    margin-left: 0.1rem;
+    white-space: nowrap;/*不换行*/  overflow:hidden;/*溢出隐藏*/
+    text-overflow:ellipsis;/*溢出出现省略号*/ line-height:0.9rem; font-size: 0.24rem;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .pic{
+    width:2.02rem;
+    height:2.02rem;
+    overflow:hidden;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .pic img{
+    height:100%;
+    width:auto;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .text{
+    width:100%;
+    height:1.4rem;
+    font-size:0.24rem;
+    padding-top:0.12rem;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .text .name{
+    height:0.62rem;
+    overflow:hidden;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .text .pro{
+    color:#ff2307;
+    font-size:0.28rem;
+    margin-top:0.1rem;
+}
+
+.floor_kill .kill_con .swiper-container .swiper-slide .text .price{
+    color:#a4a1b2;
+    text-decoration:line-through;
+}
+
+/*小海豚*/
+.small{
+    background: #f2f2f2;
+    width:100%;
+    height:8.2rem;
+}
+.small .small_bt{
+    padding-top: 0.3rem;
+}
+.small .small_bt h3{
+    float:left;
+    margin-left: 30%;
+    font-size: 0.3rem;
+}
+.small .small_bt a{
+    float:left;
+    font-size:0.26rem;
+    color:#c9c9c9;
+    line-height: 0.5rem;
+    margin-left: 1rem;
+
+}
+.small .small_con{
+    width:6.76rem;
+    border-radius: 0.5rem;
+    margin: 0.2rem auto;
+    background: white;
+}
+.small .small_con i{
+    display: inline-block;
+    background:url(../images/4.jpg) no-repeat top center;
+    width:100%;
+    height:3.1rem;
+    border-radius: 0.5rem 0.5rem 0 0 ;
+}
+
+.small .small_con .kill_con{
+    width:100%;
+   /* padding:0.1rem 0.1rem 0;*/
+}
+
+.small .small_con  .kill_con .swiper-container{
+    width:100%;
+    height:100%;
+}
+
+.small .small_con  .swiper-container .swiper-slide{
+    width:2.02rem;
+    height:100%;
+    margin-left: 0.2rem;
+    white-space: nowrap;/*不换行*/  overflow:hidden;/*溢出隐藏*/
+    text-overflow:ellipsis;/*溢出出现省略号*/ line-height:0.9rem; font-size: 0.24rem;
+}
+
+.small .small_con  .swiper-container .swiper-slide .pic{
+    width:2.02rem;
+    height:2.02rem;
+    overflow:hidden;
+}
+
+.small .small_con  .swiper-container .swiper-slide .pic img{
+    height:100%;
+    width:auto;
+}
+
+.small .small_con  .kill_con .swiper-container .swiper-slide .text{
+    width:100%;
+    height:1.4rem;
+    font-size:0.24rem;
+    padding-top:0.12rem;
+}
+
+.small .small_con  .kill_con .swiper-container .swiper-slide .text .name{
+    height:0.62rem;
+    overflow:hidden;
+}
+
+.small .small_con  .kill_con .swiper-container .swiper-slide .text .pro{
+    color:#ff2307;
+    font-size:0.28rem;
+    margin-top:0.1rem;
+}
+
+.small .small_con  .kill_con .swiper-container .swiper-slide .text .price{
+    color:#a4a1b2;
+    text-decoration:line-through;
+}
+
+/*全球商家*/
+.qq h3{
+    margin-left: 32%;
+    font-size: 0.38rem;
+    margin-top: 0.9rem;
+}
+.qq>img{
+    width:100%;
+    height:2.8rem;
+    margin-top: 0.3rem;
+}
+.qq .logo>img{
+    width:2rem;
+    height:1rem;
+    float:left;
+}
+.qq .logo p{
+    font-size: 0.28rem;
+    float:right;
+    /*font-weight:500;*/
+    margin-top: 0.2rem;
+    margin-right: 0.1rem;
+}
+.qq .enter{
+    width: 7rem;
+    height: 0.76rem;
+    background: #fe3824;
+    margin:0.5rem auto;
+    line-height: 0.76rem;
+    font-size: 0.28rem;
+    border-radius: 0.1rem;
+}
+.qq .enter p{
+    float:left;
+    margin-left: 0.2rem;
+    color: white;
+}
+.qq .enter a{
+    float:right;
+    margin-right: 0.2rem;
+    color: white;
+}
+.qq .kill_con{
+    width:100%;
+    /* padding:0.1rem 0.1rem 0;*/
+}
+
+.qq .kill_con .swiper-container{
+    width:100%;
+    height:100%;
+}
+
+.qq  .swiper-container .swiper-slide{
+    width:2.02rem;
+    height:100%;
+    margin-left: 0.2rem;
+    white-space: nowrap;/*不换行*/  overflow:hidden;/*溢出隐藏*/
+    text-overflow:ellipsis;/*溢出出现省略号*/ line-height:0.9rem; font-size: 0.24rem;
+}
+
+.qq  .swiper-container .swiper-slide .pic{
+    width:2.02rem;
+    height:2.02rem;
+    overflow:hidden;
+}
+
+.qq  .swiper-container .swiper-slide .pic img{
+    height:100%;
+    width:auto;
+}
+
+.qq  .kill_con .swiper-container .swiper-slide .text{
+    width:100%;
+    height:1.4rem;
+    font-size:0.24rem;
+    padding-top:0.12rem;
+}
+
+.qq  .kill_con .swiper-container .swiper-slide .text .name{
+    height:0.62rem;
+    overflow:hidden;
+}
+
+.qq  .kill_con .swiper-container .swiper-slide .text .pro{
+    color:#ff2307;
+    font-size:0.28rem;
+    margin-top:0.1rem;
+}
+
+.qq  .kill_con .swiper-container .swiper-slide .text .price{
+    color:#a4a1b2;
+    text-decoration:line-through;
+}
+
+.bottom{
+    width:100%;max-width:7.5rem;
+    min-width:3.2rem; height:0.98rem;
+    background: rgba(255,255,255,1);
+    border-top:1px solid rgba(102,102,102,0.2);
+    margin:0 auto; position:fixed;/*固定定位*/
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:100;
+}
+.bottom ul{
+    width:100%;
+    height:100%; /*display:flex;*//*伸缩盒*/
+}
+.bottom ul li{
+    /*flex:1;*/ width:20%;
+    float:left;
+    padding-top:0.12rem;
+}
+.bottom ul li:nth-child(1) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/全球购.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+    margin-bottom: 0.08rem;
+}
+.bottom ul li:nth-child(2) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/分类.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+.bottom ul li:nth-child(3) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/豚好货.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+.bottom ul li:nth-child(4) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/购物车.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+.bottom ul li:nth-child(5) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/我的.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+
+
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/base.css" type="text/css">
+    <link rel="stylesheet" href="style/detail.css">
+    <link rel="stylesheet" href="style/swiper-4.1.6.min.css">
+    <script src="js/adaptive.js"></script>
+</head>
+<body>
+    <div class="detail">
+        <div class="top">
+            <img src="images/左箭头.png" alt="">
+            <a class="first" href="">商品</a>
+            <a class="second" href="">详情</a>
+            <a class="second" href="">评价</a>
+        </div>
+        <div class="banner">
+           <div class="swiper-container swiper-banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"> <a href=""> <img src="images/x1.jpg" alt=""> </a> </div>
+                    <div class="swiper-slide"> <a href=""> <img src="images/x2.jpg" alt=""> </a> </div>
+                    <div class="swiper-slide"> <a href=""> <img src="images/x3.jpg" alt=""> </a> </div>
+                </div>
+                <!-- 如果需要分页器-->
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="js">
+                <h3>【包邮装】JellyCat 柔软安抚玩偶邦尼兔 1只 <br>（蓝色 /M中号/31cm）</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/swiper-4.1.6.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-banner', {
+        loop : true,
+        autoplay: {
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
+            delay: 2000,//1秒切换一次
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable : true,
+        },
+    });
+</script>
+</html>

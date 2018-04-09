@@ -1,0 +1,153 @@
+.login{
+    max-width:7.5rem;
+    min-width:3.2rem;
+    height:auto;
+   /* background:#FF9999;*/
+    margin:0 auto;
+}
+.login .login_bt{
+    width:100%;
+    height:3.28rem;
+    background:url(../images/login.jpg) center no-repeat;
+    background-size:contain;
+}
+
+.login .content{
+    width:100%;
+    height:9.6rem;
+    background:#FFf;
+    padding-top:1rem;
+}
+.login .content .form{
+    width:6.8rem;
+    height:auto;
+    /*background:#00FF00;*/
+    margin:0 auto;
+}
+
+.login .content .form .sj{
+    width:100%;
+    height:1rem;
+    background:#fff;
+    border-bottom:#e4e4e4 1px solid;
+}
+.login .content .form .sj span{
+    display:block;
+    float:left;
+    width:0.6rem;
+    height:0.6rem;
+    background: url(../images/人.png) no-repeat;
+    background-size:contain;
+    margin: 0.2rem 0.35rem  0.2rem;
+}
+.login .content .form .sj input[type="text"]{
+    border:none;
+    /*background:#99FF00;*/
+    margin-top: 0.3rem;
+    font-size:0.32rem;
+    color:#bdbdbd;
+}
+.login .content .form .mima{
+    width:100%;
+    height:1rem;
+    background:#fff;
+    border-bottom:#e4e4e4 1px solid;
+}
+.login .content .form .mima span{
+    display:block;
+    float:left;
+    width:0.6rem;
+    height:0.6rem;
+    background: url(../images/锁.png) no-repeat;
+    background-size:contain;
+    margin: 0.2rem 0.35rem  0.2rem;
+}
+.login .content .form .mima i{
+    display:block;
+    float:right;
+    width:0.6rem;
+    height:0.6rem;
+    background: url(../images/不可见.png) no-repeat;
+    background-size:contain;
+    margin: 0.2rem 0.35rem  0.2rem;
+}
+.login .content .form .mima input[type="text"]{
+    border:none;
+    /*background:#99FF00;*/
+    margin-top: 0.3rem;
+    font-size:0.32rem;
+    color:#bdbdbd;
+}
+
+.login .content .form .button{
+    width:100%;
+    height:0.8rem;
+    background:#999999;
+    text-align:center;
+    line-height:0.8rem;
+    color:#FFFFFF;
+    border-radius:0.5rem;
+    margin-top:1rem;
+    font-size: 0.32rem;
+}
+
+.login .content .form .wj{
+    width:100%;
+    height:0.5rem;
+   /* background:#9999CC;*/
+    margin-top:0.2rem;
+}
+.login .content .form .wj .first{
+    float:left;
+    font-size: 0.28rem;
+    color: #3ab2f3;
+    margin-left: 0.3rem;
+}
+.login .content .form .wj .second{
+    float:right;
+    font-size: 0.28rem;
+    color: #3ab2f3;
+    margin-right: 0.3rem;
+}
+
+.login .content .form .qt_title{
+    width:100%;
+    /*height:0.8rem;*/
+  /*  background:#00FF99;*/
+    position:relative;
+    margin-top: 0.8rem;
+}
+.login .content .form  .qt_title i{
+    display:block;
+    width:80%;
+    height:0.4rem;
+    border-bottom:#ebebeb 0.01rem solid;
+    margin: 0 auto;
+}
+.login .content .form .qt_title span{
+    display:block;
+    width:2.82rem;
+    height:auto;
+    background:#FFFFFF;
+    text-align:center;
+    position:absolute;
+    top:0.22rem; left:50%;
+    transform:translateX(-50%);
+    color:#a1a1a1;
+}
+
+
+.login .content .form .foot{
+    width:100%;
+    height:0.8rem;
+  /*  background: black;*/
+    margin-left: 0.55rem;
+}
+.login .content .form .foot img{
+    display: inline-block;
+    width:0.8rem;
+    height:0.8rem;
+    float:left;
+    margin:0.45rem 0.3rem 0 0.3rem;
+
+}

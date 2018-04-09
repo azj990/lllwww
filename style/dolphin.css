@@ -1,0 +1,161 @@
+.dolphin{ max-width:7.5rem;
+    min-width:3.2rem;
+    height:auto;
+    background:white;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+.dolphin .top{
+    height:0.9rem;
+    width:100%;
+    background: #ededed;
+    text-align: center;
+    border-bottom:1px solid #c8c7cc ;
+}
+.dolphin .top a {
+    font-size: 0.36rem;
+    font-weight: 500;
+    line-height: 0.85rem;
+
+}
+
+.dolphin .nav ul li{
+    float:left;
+    width: 1.874rem;
+    height: 1.36rem;
+    text-align: center;
+    background: #24b4ed;
+   /* margin-right: 0.005rem;*/
+}
+
+.dolphin .nav ul .first{
+     background: #0099e6;
+     margin-right: 0;
+}
+.dolphin .nav ul .last{
+    margin-right: 0;
+}
+
+.dolphin .nav ul li img{
+    width: 0.6rem;
+    height:0.6rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+}
+.dolphin .nav ul li a{
+    color: white;
+    font-size: 0.26rem;
+}
+
+.dolphin .banner{
+    width:100%;
+    height:4.06rem;
+}
+.dolphin .banner .swiper-container{
+    width: 100%;
+}
+.dolphin .banner .swiper-container .swiper-slide{
+    width:100%;
+
+}
+.dolphin .banner .swiper-container .swiper-slide img{
+    width: 100%;
+}
+
+.dolphin .cp{
+    border-bottom: 1px solid #c8c7cc;
+    width: 100%;
+    height: 2.96rem;
+}
+.dolphin .cp img{
+    float:left;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
+.dolphin .cp h3{
+    float:left;
+    font-weight: 400;
+    font-size: 0.32rem;
+    margin-top: 0.6rem;
+    margin-left: 0.82rem;
+}
+.dolphin .cp p{
+    float:right;
+    color: #b5b5b5;
+    font-size: 0.28rem;
+    margin-top: 0.1rem;
+    margin-right: 0.2rem;
+    /*margin-left: 0.6rem;*/
+}
+.dolphin .cp span{
+    float:left;
+    font-size: 0.3rem;
+    margin-top: 0.45rem;
+    margin-left: 0.82rem;
+}
+
+
+.bottom{
+    width:100%;max-width:7.5rem;
+    min-width:3.2rem; height:0.98rem;
+    background: rgba(255,255,255,1);
+    border-top:1px solid rgba(102,102,102,0.2);
+    margin:0 auto; position:fixed;/*固定定位*/
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:100;
+}
+.bottom ul{
+    width:100%;
+    height:100%; /*display:flex;*//*伸缩盒*/
+}
+.bottom ul li{
+    /*flex:1;*/ width:20%;
+    float:left;
+    padding-top:0.12rem;
+}
+.bottom ul li:nth-child(1) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/全球购2.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+    margin-bottom: 0.08rem;
+}
+.bottom ul li:nth-child(2) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/分类.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+.bottom ul li:nth-child(3) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/豚好货2.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+.bottom ul li:nth-child(4) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/购物车.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
+.bottom ul li:nth-child(5) a{
+    width:1rem;
+    height:1rem;
+    display:block;
+    background:url(../images/我的.jpg) no-repeat top center;
+    background-size:contain;
+    margin:-0.08rem auto;
+}
