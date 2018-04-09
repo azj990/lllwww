@@ -202,8 +202,9 @@
 }
 .small .small_con i{
     display: inline-block;
-    background:url(../images/4.jpg) no-repeat top center;
     width:100%;
+    background:url(../images/4.jpg) no-repeat top center;
+    background-size:100% 3.2rem;
     height:3.1rem;
     border-radius: 0.5rem 0.5rem 0 0 ;
 }
