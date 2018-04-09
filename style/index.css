@@ -202,6 +202,7 @@
     border-radius: 0.5rem;
     margin: 0.2rem auto;
     background: white;
+    height：7rem;
 }
 .small .small_con i{
     display: inline-block;
