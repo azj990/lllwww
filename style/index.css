@@ -157,8 +157,11 @@
 }
 
 .floor_kill .kill_con .swiper-container .swiper-slide .text .name{
-    height:0.62rem;
-    overflow:hidden;
+     height:0.62rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical；
+    overflow: hidden;
+    width:2rem;
 }
 
 .floor_kill .kill_con .swiper-container .swiper-slide .text .pro{
@@ -246,8 +249,11 @@
 }
 
 .small .small_con  .kill_con .swiper-container .swiper-slide .text .name{
-    height:0.62rem;
-    overflow:hidden;
+     height:0.62rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical；
+    overflow: hidden;
+    width:2rem;
 }
 
 .small .small_con  .kill_con .swiper-container .swiper-slide .text .pro{
